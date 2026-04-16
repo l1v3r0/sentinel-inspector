@@ -94,4 +94,4 @@ The validator understands:
 
 ## Disclaimer
 
-This tool executes read-only queries against live workspaces (`| limit 1`). No data is modified.
+This tool performs read-only operations only — HTTP GET requests to Azure Resource Manager and KQL queries submitted via POST to the Log Analytics API. No data is created, modified, or deleted. All operations require the user to authenticate with their own Azure credentials via az login and are subject to their existing RBAC permissions. Use at your own risk. The author accepts no responsibility for any damage, data loss, or security incidents arising from the use of this tool. Always obtain proper authorization before running this tool against any environment you do not own.
