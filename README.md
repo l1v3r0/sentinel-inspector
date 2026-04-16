@@ -27,7 +27,7 @@ A CLI tool to inspect Microsoft Sentinel workspaces and validate analytics rules
 ## Requirements
 
 - Python 3.8+
-- Azure CLI (`brew install azure-cli` on macOS — auto-prompted if missing)
+- Azure CLI (`azure-cli`)
 - `pip3 install requests`
 
 ---
